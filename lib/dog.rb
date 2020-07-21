@@ -12,4 +12,4 @@ end
 
  fido = Dog.new
  fido.name= "Fido"
- fido.instance_variable_get(@name)
+ fido.instance_variable_get(:@name)
